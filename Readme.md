@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Olga Shramko](https://up.htmlacademy.ru/htmlcss/16/user/308519).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Котов](https://up.htmlacademy.ru/htmlcss/16/user/25083).
 
 ---
 
