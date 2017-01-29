@@ -3,12 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Девайс</title>
+        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
     	<header class="container main-header">	
             <div class="container-left">
                 <a class="logo" href="/">DEVICE</a>
-                <div class=nav-actions"">
+                <div class="nav-actions">
                     <a class="search" href="#">Поиск по сайту</a>
                 </div>
                 <nav class="main-navigation">
@@ -16,7 +17,7 @@
                 </nav> 
             </div>
             <div class="container-right">
-                <div class=nav-actions"">
+                <div class="nav-actions">
                     <a class="login" href="#">Войти</a>
                     <a class="compare" href="#">Сравнить</a>
                     <a class="basket" href="#">Корзина</a>
@@ -42,7 +43,7 @@
                     <p>01</p>
                 </div>
                 <div class="container-left">
-                    <img src="img/item-1.png"  width="384" height="486" alt="">
+                    <img src="img/item1.png"  width="384" height="486" alt="">
                 </div>
                 <div class="container-right">
                     <div class="slogan"> 
@@ -51,16 +52,16 @@
                         Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
                     </div>
                     <div class="switcher">
-                        <a href="#"><p class="yellow-bar">Подробнее</p></a>
+                        <a href="#"><span class="yellow-bar">Подробнее</span></a>
                         <input type="radio" id="switch-1" name="item" checked>
                         <input type="radio" id="switch-2" name="item">
                         <input type="radio" id="switch-3" name="item">
                     </div>
                     <table class="details">
                         <tr>
-                            <td>8,5 м</td>
-                            <td>5 кг</td>
-                            <td>Карбон</td>
+                            <th>8,5 м</th>
+                            <th>5 кг</th>
+                            <th>Карбон</th>
                         </tr>
                         <tr>
                             <td>Длина палки</td>
@@ -70,7 +71,7 @@
                     </table>
                 </div>
             </section>
-            <section class="partitions">
+            <section class="partitions bold">
                 <a href="#">Виртуальная реальность</a>
                 <a href="#">Моноподы для селфи</a>
                 <a href="#">Экшн-камеры</a>    
@@ -93,10 +94,10 @@
                 </div>
             </section>
             <section class="logotypes">
-                <img src="img/logo-1.jpg" width="260" height="100" alt="">
-                <img src="img/logo-2.jpg" width="260" height="100" alt="">
-                <img src="img/logo-3.jpg" width="260" height="100" alt="">
-                <img src="img/logo-4.jpg" width="260" height="100" alt="">
+                <img src="img/logo1.jpg" width="260" height="100" alt="">
+                <img src="img/logo2.jpg" width="260" height="100" alt="">
+                <img src="img/logo3.jpg" width="260" height="100" alt="">
+                <img src="img/logo4.jpg" width="260" height="100" alt="">
             </section>
             <section class="information">
                 <div class="container-left">
@@ -105,9 +106,9 @@
                         <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
                         <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
                         <ul class="companies">
-                            <li><p class="bold">Деловые Линии</p></li>
-                            <li><p class="bold">Автотрейдинг</p></li>
-                            <li><p class="bold">ЖелДорЭкспедиция</p></li>
+                            <li><span class="bold">Деловые Линии</span></li>
+                            <li><span class="bold">Автотрейдинг</span></li>
+                            <li><span class="bold">ЖелДорЭкспедиция</span></li>
                         </ul>
                         <a href="#"><p class="yellow-bar">Подробнее о нас</p></a>
                     </div>
@@ -116,46 +117,48 @@
                     <div class="about-contacts">
                         <b>Контакты</b>
                         <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-                        <img class="map" src="img/map.jpg">
-                        <a href="#"><p class="yellow-bar">Напишите нам</p></a>
+                        <img class="map" src="img/map.jpg" alt="Карта">
+                        <a href="#"><span class="yellow-bar">Напишите нам</span></a>
                     </div>
                 </div>
             </section>
         </main>    
         <footer class="container main-footer">
-            <div class="block-left">
-                <a class="logo-footer" href="/">DEVICE</a>
-                <p>г. Москва, ул. Строителей, 15</p>
-            </div>
-            <div class="block-middle">
-                <nav class="bottom-navigation">
-                    <ul>
-                        <li>
-                            <a href="#">Доставка</a>
-                        </li>
-                        <li>
-                            <a href="#">Гарантия</a>
-                        </li>
-                        <li>
-                            <a class="contacts" href="#">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="footer-social">
-                    <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-                    <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-                    <a class="social-btn social-btn-tv" href="#">Твиттер</a>        
+            <div class="container">
+                <div class="block-left">
+                    <a class="logo-footer" href="/">DEVICE</a>
+                    <p>г. Москва, ул. Строителей, 15</p>
                 </div>
-            </div>
-            <div class="block-right">
-                <div class=footer-actions"">
-                    <a class="login" href="#">Войти</a>
-                    <a class="compare" href="#">Сравнить</a>
-                    <a class="basket" href="#">Корзина</a>
+                <div class="block-middle">
+                    <nav class="bottom-navigation">
+                        <ul>
+                            <li>
+                                <a href="#">Доставка</a>
+                            </li>
+                            <li>
+                                <a href="#">Гарантия</a>
+                            </li>
+                            <li>
+                                <a class="contacts" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer-social">
+                        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+                        <a class="social-btn social-btn-tv" href="#">Твиттер</a>        
+                    </div>
                 </div>
-                <p>Тел.: +7 (495) 495-95-95</p>
+                <div class="block-right">
+                    <div class=footer-actions"">
+                        <a class="login" href="#">Войти</a>
+                        <a class="compare" href="#">Сравнить</a>
+                        <a class="basket" href="#">Корзина</a>
+                    </div>
+                    <p>Тел.: +7 (495) 495-95-95</p>
+                </div>
+                <a class="logo-htmlacademy" href="#"></a>
             </div>
-            <a class="logo-htmlacademy" href="#"></a>
         </footer>
     </body>
 </html>
