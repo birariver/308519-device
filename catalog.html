@@ -6,18 +6,18 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-    	<header class="container main-header">	
-            <div class="container-left">
+    	<header class="container main-header dr">  
+            <div class="container-left db">
                 <a class="logo" href="/">DEVICE</a>
-                <div class=nav-actions"">
+                <div class="nav-actions">
                     <a class="search" href="#">Поиск по сайту</a>
                 </div>
                 <nav class="main-navigation">
                     <a href="#">Каталог товаров</a>
                 </nav> 
             </div>
-            <div class="container-right">
-                <div class=nav-actions"">
+            <div class="container-right db">
+                <div class="nav-actions">
                     <a class="login" href="#">Войти</a>
                     <a class="compare" href="#">Сравнить</a>
                     <a class="basket" href="#">Корзина</a>
@@ -37,9 +37,10 @@
                 </nav>
             </div>
         </header>
-		<main class="container">
-		   	<h2>Моноподы для селфи</h2>	
-			<div class="breadcrumbs">            
+		<main class=" dr">
+            
+			<div class="breadcrumbs dg">   
+                <h2>Моноподы для селфи</h2>          
                 <ul>
                     <li>                   
                         <a href="#">Главная</a>
@@ -52,57 +53,59 @@
                     </li>
                 </ul>
             </div>
-            <div class="filter">
-            	<p class="option">Фильтр</p>
-            	<div class="filter-worth">
-            		<p class="bold">Стоимость</p>
-                    <input type="range" id="worth" name="worth" min="0" max="10000" step="1"> 
-                </div>
-                <div class="item-color">
-                	<p class="bold">Цвет</p>
-                    <ul>
-                        <li>
-                            <input type="checkbox" id="item-1" checked>
-                            <label for="item-1">Черный</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="item-2" >
-                            <label for="item-2">Белый</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="item-3" checked>
-                            <label for="item-3">Синий</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="item-4" checked>
-                            <label for="item-4">Красный</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="item-5" >
-                            <label for="item-5">Розовый</label>
-                        </li>
-                    </ul>               
-                </div>
-                <div class="item-groups">
-                    <p class="bold">Bluetooth</p>
-                    <input type="radio" id="group-yes" name="item-group" checked>
-                    <p>Есть</p>
-                    <input type="radio" id="group-no" name="item-group">
-                    <p>Нет</p>
-                </div>
-                <a href="#"><p class="yellow-bar">Показать</p></a>
-            </div>	
-            <div class="items">
-				<div class="item-groups">
-                    <p class="option">Сортировка:</p>
+            <section class="filter dg">
+                <form class="filter-container sb" action="#" method="get">
+                	<p class="option">Фильтр</p>
+                	<div class="filter-worth">
+                		<p class="bold">Стоимость</p>
+                        <input type="range" id="worth" name="worth" min="0" max="10000" step="1"> 
+                    </div>
+                    <div class="item-color">
+                    	<p class="bold">Цвет</p>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="item-1" checked>
+                                <label for="item-1">Черный</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="item-2" >
+                                <label for="item-2">Белый</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="item-3" checked>
+                                <label for="item-3">Синий</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="item-4" checked>
+                                <label for="item-4">Красный</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="item-5" >
+                                <label for="item-5">Розовый</label>
+                            </li>
+                        </ul>               
+                    </div>
+                    <div class="item-groups">
+                        <p class="bold">Bluetooth</p>
+                        <input type="radio" id="group-yes" name="item-group" checked>
+                        <p>Есть</p>
+                        <input type="radio" id="group-no" name="item-group">
+                        <p>Нет</p>
+                    </div>
+                    <a href="#"><p class="yellow-bar">Показать</p></a>
+                </form>
+            </section>	
+            <section class="items db">
+				<div class="item-groups sb">
+                    <span class="option">Сортировка:</span>
                     <input type="radio" id="group-worth" name="item-sort" checked>
-                    <p>По цене</p>
+                    <label for="group-worth">По цене</label>
                     <input type="radio" id="group-type" name="item-sort">
-                    <p>По типу</p>
+                    <label for="group-type">По типу</label>
 					<input type="radio" id="group-rating" name="item-sort">
-                    <p>По популярности</p>
+                    <label for="group-rating">По популярности</label>
                 </div>
-                <div class="items-result">
+                <div class="items-result sr">
                 	<div class="item">
                 		<img src="img/item-photo-1.jpg" width="360" height="380" alt="">
                 		<p class="bold">Любительская селфи-палка</p>
@@ -123,7 +126,7 @@
                 		<p class="bold">Селфи-палка «Следуй за мной»</p>
                 		<p>4 900 руб.</p>
                 	</div>
-                	<div class="paginator">
+                	<div class="paginator sb">
                 		<a href="previous">Назад</a>
                 		<a href="#1">1</a>
                 		<a class="current" href="#2">2</a>
@@ -131,9 +134,9 @@
                 		<a href="next">Вперед</a>
             		</div>
                 </div>
-            </div>
+            </section>
         </main>
-        <footer class="container main-footer">
+        <footer class="main-footer">
         	<div class="container">
 	            <div class="block-left">
 	                <a class="logo-footer" href="/">DEVICE</a>
