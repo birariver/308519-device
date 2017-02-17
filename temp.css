@@ -1,0 +1,287 @@
+.container-left {
+    margin-left: 60px;
+    min-height: 10px;
+    width: 416px;
+    float: left;
+}
+
+.container-right {
+    width: 500px;
+    min-height: 10px;
+    margin-right: 60px;
+    float: right;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    transform: scaleX(1.0068);
+    margin-top: -30px;
+    margin-left: 60px;
+}
+
+.logo a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.px10 {
+    width: 20px;
+    height: 10px;
+    background-color: black;
+}
+.px15 {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+}  
+.nav-actions {
+    /*padding-top: 10px;
+    padding-bottom: 47px;*/
+    font-family: Open Sans Light;
+    font-size: 15px;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+
+}
+
+.nav-actions a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 30px;
+
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.login {
+
+}
+
+.compare {
+    text-align: right;
+}
+
+.nav-actions.basket {
+    text-align: right;
+}
+
+.search {
+
+}
+
+.main-navigation ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    font-size: 0;
+}
+
+.main-navigation li {
+  display: inline-block;
+
+  font-size: 18px;
+  line-height: 20px;
+  vertical-align: top;
+  text-transform: uppercase;
+}
+
+======================================
+
+.block-left {
+    float: left;
+    width: 362px;
+    min-height: 323px;
+}
+
+.logo-footer {
+    margin-top: 55px;
+
+    list-style: none;
+    font-size: 0;
+}
+
+.logo-footer a {
+    color: #f7e184;
+    text-decoration: none;
+
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.block-left p {
+    font-family: Open Sans Light;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.block-left p::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 7px;
+    background-color: rgba(255,255,255,0.1);
+    bottom: 0;
+}
+
+.block-middle {
+    float: left;
+    width: 472px;
+    min-height: 323px;
+       
+}
+
+.footer-navigation {
+    margin: 320px;
+    padding: 0;
+    font-size: 0;  
+    display: inline-block;
+    float: top;   
+    margin-bottom: 60px;
+
+}
+
+.footer-navigation a {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-decoration: none;
+    text-transform: uppercase;  
+    letter-spacing: 4px;
+}
+
+.footer-delivery {
+    float: left;
+}
+
+.footer-warranty {
+    float: left;
+}
+
+.footer-contacts {
+    float: right;
+}
+
+.footer-social {
+    float: bottom;
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    margin: 0 2px;
+
+    background: #000000 url("img/sprite.png") no-repeat center;
+}
+
+.block-right {
+    float: right;
+    width: 325px;
+    min-height: 323px;
+}
+
+.footer-actions {
+    margin-top: 65px;
+    font-family: Open Sans Light;
+    font-size: 15px;
+
+    list-style: none;
+    font-size: 0;
+
+    width: 325px;
+    margin-bottom: 50px;
+}
+
+.footer-actions a {
+    text-decoration: none;
+    font-weight: 300;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 36px;
+
+    font-size: 15px;
+    line-height: 36px;
+
+    display: block;
+}
+
+.footer-actions a:hover {
+    opacity: 0.7;
+}
+
+.footer-actions a:active {
+    opacity: 0.3;
+}
+
+.footer-social .login a {
+    position: relative;
+    padding-left: 36px;
+}
+
+.footer-social .login a::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 10px;
+
+  width: 18px;
+  height: 18px;
+
+  background: #ffe294 url("../img/sprite.png") no-repeat;
+  background-position: -20px -5px;
+}
+
+.footer-social .compare {
+    margin-left: 180px;
+    }
+
+.footer-social .compare a {
+    padding-left: 36px;
+    position: relative;
+}
+
+.footer-social .compare a::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 10px;
+
+  width: 18px;
+  height: 18px;
+
+  background: #ffe294 url("../img/sprite.png") no-repeat;
+  background-position: -40px -5px;
+}
+
+.footer-social .basket {
+    float: right;
+}
+
+.footer-social .basket a {
+    
+    position: relative;
+}
+
+.footer-social .basket a::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 10px;
+
+  width: 18px;
+  height: 18px;
+
+  background: #ffe294 url("../img/sprite.png") no-repeat;
+  background-position: -60px -5px;
+}
+
+.logo-htmlacademy
