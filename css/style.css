@@ -1872,6 +1872,8 @@ a.footer-basket::before {
 }
 
 .item-worth {
+    font-family: "Gilroylight", "Arial", sans-serif;
+    font-weight: 300;
     line-height: 22px;
     letter-spacing: 1px;
     float: right;
