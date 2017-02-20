@@ -23,6 +23,7 @@ body {
          url(../fonts/gilroyextrabold.woff2); 
   }
 
+
 @font-face {
     font-family: Gilroylight; 
     src: local("gilroylight"),
@@ -137,7 +138,7 @@ body {
 
     font-size: 15px;
     line-height: 36px;
-
+    /*letter-spacing: 0.4px;*/
     display: block;
     
 }
@@ -156,7 +157,7 @@ body {
 
 .login-out a {
     opacity: 0.3;
-    padding-left: 20px;
+    padding-left: 17px;
     padding-right: 43px;
 }
 
@@ -168,8 +169,8 @@ body {
 .user a::before, .login-in a::before {
     content: "";
     position: absolute;
-    top: 27px;
-    left: -2px;
+    top: 26px;
+    left: -3px;
 
     width: 18px;
     height: 18px;
@@ -179,13 +180,12 @@ body {
 }
 
 .hidden {
-    width: 205px;
+    width: 200px;
 }
 
 .compare {
     margin-right: 0px;
-    margin-left: 5px;
-   /* float: right;*/
+    margin-left: 8px;
 }
 
 .system-on {
@@ -201,8 +201,8 @@ body {
 .compare a::before {
     content: "";
     position: absolute;
-    top: 27px;
-    left: 0px;
+    top: 26px;
+    left: 2px;
 
     width: 18px;
     height: 18px;
@@ -222,7 +222,7 @@ body {
 .basket a::before {
     content: "";
     position: absolute;
-    top: 27px;
+    top: 26px;
     left: 0px;
 
     width: 18px;
@@ -234,7 +234,7 @@ body {
 
 .search-form input {
     position: relative;
-    padding-left: 36px;
+    padding-left: 37px;
     padding-right: 5px;
     color: rgba(0,0,0,0.3);
     border: 0;
@@ -249,8 +249,8 @@ body {
 .search-form { 
     position: relative;
     display: inline-block;
-    margin-top: 10px;
-
+    margin-top: 13px;
+    margin-left: 1px;
     list-style: none;
     font-size: 0;
     
@@ -340,12 +340,12 @@ body {
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
-    padding-top: 13px;
+    padding-top: 11px;
     padding-bottom: 13px;
     color: #000000;
     text-decoration: none;
     text-transform: uppercase;  
-    letter-spacing: 4px;
+    letter-spacing: 3.6px;
     display: block;
     position: relative;
  }
@@ -359,7 +359,7 @@ body {
 }
 
 .catalog {
-    margin-top: 12px;   
+    margin-top: 9px;   
 }
 
 .catalog a {
@@ -368,20 +368,19 @@ body {
 }
 
 .catalog a.catalog-plus::after {  
-    font-family: "OpenSans", "Arial", sans-serif;
-    font-size: 20px;
-    content: "+";
-    color: black;
+    content: "";
     font-size: 40px;
     font-weight: 100;
     position: absolute;
-    opacity: 0.3;
+    
     top: 12px;
-    right: 8px;
+    right: 11px;
 
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
 
+    background: #ffe294 url("../img/sprite.png") no-repeat;
+    background-position: -2px -22px;
 }
 
 .catalog-menu {
@@ -453,7 +452,7 @@ body {
 }
 
 .delivery {
-    padding-right: 32px; 
+    padding-right: 35px; 
 }
 
 .warranty {
@@ -462,6 +461,7 @@ body {
 
 .contacts {
     float: right;
+    margin-right: -3px;
 }
 
 .slider {
@@ -489,6 +489,7 @@ body {
     margin-right: 48px;
     margin-top: 78px;
     float: right;
+    letter-spacing: 0.3px;
 }
 
 
@@ -497,7 +498,8 @@ body {
     content: "";
     position: absolute;
     display: block;
-    top: -13px;
+    top: -12px;
+    left: 2px;
     width: 100px;
     height: 7px;
 
@@ -512,7 +514,7 @@ body {
     position: relative;
     z-index: 5;
 
-    margin-top: -113px;
+    margin-top: -111px;
     margin-left: 90px;
     width: 416px;
     float: left;
@@ -521,7 +523,7 @@ body {
 .slider-description {
     position: relative;
     z-index: 5;
-    margin-top: -60px;
+    margin-top: -62px;
     width: 503px;
     min-height: 370px;
     margin-right: 60px;
@@ -534,16 +536,19 @@ body {
 
 .slogan b {
     padding-bottom: 20px;
+    letter-spacing: 0.55px;
+    line-height: 55px;
 }
 
 .slogan p {
-    margin-top: 22px;
-    margin-bottom: 42px;
+    margin-top: 21px;
+    margin-bottom: 41px;
     font-family: "OpenSans", "Arial", sans-serif;
     color: #464646;
     font-size: 15px;
     font-weight: 300;
     line-height: 30px;
+    letter-spacing: -0.2px;
 }
 
 .slide-1 {
@@ -572,7 +577,7 @@ body {
     text-align: center;
     height: 50px;
     margin-left: 12px;
-    margin-right: 155px;
+    margin-right: 158px;
         
     vertical-align: top;
 }
@@ -593,7 +598,7 @@ body {
     color: #000000;
     text-decoration: none;
     text-transform: uppercase;  
-    letter-spacing: 4px;
+    letter-spacing: 3.6px;
     
     z-index: 2;
     margin-left: -10px;
@@ -636,8 +641,8 @@ body {
     border-style: solid;
     border-width: 3px;
     border-color: #000000;
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 17px;
+    margin-left: 19px;
     cursor: pointer;
 }
 
@@ -695,8 +700,10 @@ body {
     width: 160px;
     margin-right: 40px;
     display: inline-block;
-        
-    vertical-align: top;
+    
+    /*padding-top: 6px;*/
+    letter-spacing: 0.4px;
+
     vertical-align: top; 
     position: relative;
 }
@@ -704,7 +711,7 @@ body {
 .partitions a::before {
     width: 160px;
     height: 160px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     
     background-color: #ffc602;
  
@@ -779,7 +786,7 @@ body {
 .services {
     width: 100%;
     background: #e3e3e3; 
-    min-height: 286px;
+    min-height: 288px;
     margin-top: 100px;
     margin-left: -140px;
     margin-right: -140px;
@@ -788,13 +795,13 @@ body {
 }
 
 .services-switcher {
-    width: 276px;
-    height: 220px;
+    width: 277px;
+    height: 198px;
     padding-top: 67px;
     padding-bottom: 55px;
     border-right: 7px solid black;
     float: left;
-    margin-top: -100px;
+    margin-top: -102px;
     margin-left: 140px;
 }
 
@@ -816,13 +823,14 @@ body {
 
 .yellow-bar label {
     position: relative;
-    
+    padding-left: 2px;
+    padding-top: 4px;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 18px;
     font-weight: 700;
     color: #000000;
     text-transform: uppercase;  
-    letter-spacing: 4px;
+    letter-spacing: 3.6px;
     cursor: pointer;
 }
 
@@ -830,7 +838,8 @@ body {
     content: "";
     width: 160px;
     position: relative;
-    top: 13px;
+    top: 12px;
+    left: -2px;
     z-index: -1;
     display: block;
     /*width: 100%;*/
@@ -838,26 +847,14 @@ body {
     background-color: #f0c52e;
 }
 
-.services-switcher input[type="radio"]:not(:checked) +label::before:active {    
-    content: "";
-    width: 160px;
-    position: relative;
-    top: 13px;
-    z-index: -1;
-    display: block;
-
-    height: 8px;
-    background-color: yellow;
-}
-
 .services-switcher label {
     display: block;
 
     width: 165px;
-    height: 40px;
+    height: 36px;
 
     padding-right: 115px;
-    margin: 12px 0;
+    margin-top: 15px;
     margin-bottom: 26px;
     position: relative;
     z-index: 4;
@@ -868,45 +865,57 @@ body {
 }
 
 .services-switcher.yellow-bar input[type="radio"]:checked +label {
-    padding-top: 10px;   
-    margin-bottom: 28px;
-    height: 30px;
+    padding-top: 12px;   
+    margin-bottom: 23px;
+    height: 28px;
 
-    color: #f0c52e;
+    color: #f7e284;
 
     background-color: black;
+}
+
+.services-switcher.yellow-bar input[type="radio"]:not(:checked) +label {
+    margin-bottom: 25px;
 }
 
 .services-switcher input[type="radio"]:not(:checked) +label:hover {
     color: #000000;
     background-color: #f0c52e;
     padding-right: 0px;
-    margin-bottom: 26px;
 }
 
 .services-text {
     width: 758px;
     min-height: 320px;
     float: right;
-    margin-top: -32px;
+    margin-top: -30px;
     margin-right: 140px;
+    letter-spacing: 0.7px;
 }
 
 .addition-text {
     width: 433px;
     margin-right: 55px;
+    
     position: relative;
 }
 
-.addition-text p {
-    
+.textfont {
+    font-family: "OpenSans", "Arial", sans-serif;
+    color: #464646;
+   /* color: green;*/
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 28px; 
+    letter-spacing: -0.2px;
 }
 
 .addition-text::after {
     content: "";
     position: absolute;
-    top: 17px;
-    right: -258px;
+    top: 15px;
+    right: -259px;
 
     width: 136px;
     height: 164px;
@@ -924,19 +933,10 @@ body {
     background: url("../img/tools.png") no-repeat;
 }
 
-.addition-text p {
-    font-family: "OpenSans", "Arial", sans-serif;
-    color: #464646;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 30px;  
-    padding-top: 26px; 
-}
-
 .logotypes {
     clear: both;
     font-size: 0;
-    margin-bottom: 95px;
+    margin-bottom: 91px;
 }
 
 .logotypes img {
@@ -956,7 +956,7 @@ body {
 }
 
 .information {
-    margin-bottom: 72px;
+    margin-bottom: 75px; /*footer*/
     min-height: 580px; 
 }
 
@@ -968,22 +968,20 @@ body {
 }
 
 .information p {
-    font-family: "OpenSans", "Arial", sans-serif;
-    color: #464646;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 30px;  
-    margin-bottom: 30px; 
+    margin-bottom: 2px; 
+    margin-left: -2px;
 }
 
 .information b {
     color: #000000;
     font-size: 47px;
+    margin-left: -3px;
     font-weight: 700;
     line-height: 47px;
-    margin-bottom: 45px;
+    margin-bottom: 16px;
     position: relative;
-    padding-top: 50px;
+    padding-top: 52px;
+    letter-spacing: 0.8px;
     display: block;
 }
 
@@ -994,6 +992,7 @@ body {
     height: 7px;
     background-color: black;
     top: 0;
+    left: 3px;
 }
 
 .about-contacts {
@@ -1006,7 +1005,7 @@ body {
 .about-text ul {
     padding: 0;
     margin-left: 0;
-    margin-top: 45px;
+    margin-top: 77px;
     padding-bottom: 40px; 
 }
 
@@ -1014,7 +1013,8 @@ body {
     font-size: 15px;
     color: black;
     font-weight: 700;
-    margin-bottom: 22px;
+    letter-spacing: 0.4px;
+    margin-bottom: 23px;
     vertical-align: top; 
     position: relative;
     padding-left: 36px;
@@ -1025,7 +1025,7 @@ body {
     content: "";
     position: absolute;
     left: 0px;
-    top: 3px;
+    top: 5px;
     display: block;
     width: 4px;
     height: 4px;
@@ -1037,7 +1037,7 @@ body {
 }
 
 .about-contacts .map {
-    margin-top: 7px;
+    margin-top: 37px;
     margin-bottom: 63px;
     background-color: #ebebeb;
 }
@@ -1080,9 +1080,9 @@ body {
 }
 
 .logo-footer {
-    margin-top: 54px;
+    margin-top: 56px;
     margin-left: -2px;
-    margin-bottom: 15px;
+    margin-bottom: 19px;
     /*font-size: 0;*/
 }
 
@@ -1109,6 +1109,8 @@ body {
     line-height: 30px;
     position: relative;
     padding-bottom: 80px;
+    letter-spacing: -0.4px;
+
 }
 
 .block-left p::after {
@@ -1117,7 +1119,7 @@ body {
     width: 80px;
     height: 7px;
     background-color: #f7e184;
-    bottom: -2px;
+    bottom: -4px;
     left:0;
 }
 
@@ -1138,7 +1140,7 @@ body {
     font-size: 0px;  
     display: inline-block;
         
-    vertical-align: top;
+    /*vertical-align: top;*/
     text-align: center;
 }
 
@@ -1152,8 +1154,9 @@ body {
     text-transform: uppercase;  
     letter-spacing: 4px;
     display: block;
-    margin-top: 125px;
-    margin-bottom: 40px;
+    margin-top: 127px;
+    margin-bottom: 41px;
+    letter-spacing: 3.6px;
 }
 
 .footer-navigation a:hover {
@@ -1176,7 +1179,7 @@ body {
    display: inline-block;
        
    vertical-align: top;
-   margin-left: 30px;
+   margin-left: 35px;
    float: left;
 }
 
@@ -1184,6 +1187,7 @@ body {
     float: bottom;
     min-height: 35px;
     text-align: center;
+    padding-right: 2px;
     
 }
 
@@ -1237,7 +1241,7 @@ body {
     padding-left: 36px;
 
     position: relative;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .footer-actions a:hover {
@@ -1257,29 +1261,34 @@ body {
 }
 
 .footer-login {
-    margin-right: 15px;
+    margin-right: 23px;
+    margin-left: 4px;
 }
 
+
+
 .footer-actions {
-    margin-top: 66px;
-    margin-bottom: 50px;
+    margin-top: 69px;
+    margin-bottom: 49px;
 }
 
 .footer-actions a {
     font-family: "OpenSans", "Arial", sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.2px;
 }
 
 
 .footer-actions a::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 10px;
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 8px;
 
-  width: 18px;
-  height: 18px;
+    width: 18px;
+    height: 18px;
 
-  background: #464646 url("../img/sprite.png") no-repeat;
+    background: #464646 url("../img/sprite.png") no-repeat;
   
 }
 
@@ -1288,17 +1297,19 @@ a.footer-login::before {
 }
 
 a.footer-compare::before {
-    background-position: -40px -23px;
+    background-position: -38px -23px;
 }
 
 a.footer-basket::before {
-    background-position: -60px -23px;
+    background-position: -58px -23px;
 }
 
 .block-right p {
     font-family: "OpenSans", "Arial", sans-serif;
     text-align: right;
+    font-size: 15px;
     margin-bottom: 65px;
+    letter-spacing: -0.2px;
 }
 
 .logo-htmlacademy a {
@@ -1307,7 +1318,7 @@ a.footer-basket::before {
     width: 34px;
     height: 36px;
     margin: 0;
-    margin-top: 5px; 
+    margin-top: 3px; 
 
     font-size: 0;
     vertical-align: top;
@@ -1336,6 +1347,7 @@ a.footer-basket::before {
     font-weight: 700;
     margin: 0;
     margin-bottom: 12px;
+    letter-spacing: 0.5px;
 }
 
 .breadcrumbs {
@@ -1567,13 +1579,16 @@ a.footer-basket::before {
     opacity: 1;
 }
 
+
 .bluetooth-groups input[type="radio"] {
     display: none;
 }
 
 .bluetooth-groups {
     padding-top: 15px;
-    margin-bottom: 17px;    
+    margin-bottom: 17px;
+    position: relative;
+    margin-top: 30px;    
 }
 
 .bluetooth-groups p {
@@ -1602,6 +1617,14 @@ a.footer-basket::before {
     border: 2px solid #c6c6c6;
 }
 
+.bluetooth-groups label:hover::before  {
+    border: 2px solid #bcbcbc;
+}
+
+.bluetooth-groups label:active::before  {
+    border: 2px solid #acacac;
+}
+
 .bluetooth-groups input[type="radio"] {   
     display: none;
 }
@@ -1617,6 +1640,10 @@ a.footer-basket::before {
     border: 2px solid #000000;
 }
 
+.bluetooth-groups input[type="radio"]:checked + label::before {
+    border: 2px solid #acacac;
+}
+
 .filter-worth {
     /*padding-top: 1px;*/
     margin-bottom: 0px;
@@ -1629,8 +1656,7 @@ a.footer-basket::before {
 }
 
 .bluetooth-groups {
-    position: relative;
-    margin-top: 33px;
+
 }
 
 .filter-worth::before,
@@ -1830,8 +1856,8 @@ a.footer-basket::before {
     width: 360px;
     min-height: 480px;
     margin-right: 36px;
-    margin-top: 4px;
-    margin-bottom: 17px;
+    margin-top: 2px;
+    margin-bottom: 22px;
     position: relative;
 }
 
@@ -1841,11 +1867,13 @@ a.footer-basket::before {
 
 .item-name {
     width: 260px;
+    letter-spacing: 0.3px;
     float: left;
 }
 
 .item-worth {
-    line-height: 30px;
+    line-height: 22px;
+    letter-spacing: 1px;
     float: right;
 }
 
@@ -1984,15 +2012,16 @@ div.item-actions:hover {
     /*min-height: 70px;*/
     min-width: 760px;
     display: inline-block;
-        
+    margin-top: -7px;    
     vertical-align: top;
     background-color: rgba(0,0,0,0.07);
+    margin-bottom: 74px;
 }
 
 .paginator a, .pages a {
     color: #000000;
     text-decoration: none;
-    padding: 24px 25px;
+    padding: 26px 25px;
 }
 
 .pages a {
@@ -2018,7 +2047,7 @@ div.item-actions:hover {
         
     vertical-align: top;
     background-color: rgba(0,0,0,0);
-    padding-left: 27px;
+    padding-left: 31px;
 }
 
 .paginator .next {
@@ -2035,7 +2064,7 @@ div.item-actions:hover {
         
     vertical-align: top;
     text-align: center;
-    padding: 24px 0;  
+    padding-top: 26px;  
 }
 
 .next:hover, .previous:hover {
